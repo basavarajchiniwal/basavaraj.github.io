@@ -1,0 +1,28 @@
+h1,h2{
+    color: aqua;
+    color: white;
+    text-align: center;
+    text-decoration: dotted;
+    text-transform:uppercase;
+    size: 1in;
+
+}
+h2:hover{
+  color: blueviolet;
+}
+body{
+    text-align: center;
+
+}
+label{
+    color:white;
+    text-align:initial;
+    text-transform: uppercase;
+}
+.Gender{
+    color:crimson;
+    text-transform: uppercase;
+ }
+ #e-mail{
+     color: #000;
+ }
