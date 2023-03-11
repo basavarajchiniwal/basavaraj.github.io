@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    
+</head>
+<body>
+   <h1>Introduction to javascript</h1> 
+   <button onclick="display() "onmouseover="display() ">Display</button>
+   <button onmouseover="display()">Display</button>
+   <div id="message"></div>
+   <script>
+    console.log("welcome to javascript")
+    var abs;
+    console.log(abs)
+    console.log(typeof(abs))
+    abs="javascript"
+    console.log(abs)
+    console.log(typeof(abs))
+    abs=123.123
+    console.log(abs)
+    console.log(typeof(abs))
+    abs=false
+    console.log(typeof(abs))
+    abs='b'
+    console.log(typeof(abs))
+    abs=null
+    console.log(abs)
+    console.log(typeof(abs))
+    function display(){
+
+        console.log("Onclick Event")
+        var displaymessage=document.getElementById("message")
+        console.log(displaymessage)
+        displaymessage.innerHTML="calling display"
+        
+       
+    }
+    function addition()
+    {
+        console.log("calling addition")
+        var firstElement=
+        document.getElementById("number1")
+        console.log(firstElement)
+        console.log(firstElement.value)
+        var secondElement=
+        document.getElementById("number2")
+        console.log(secondElement)
+        console.log(secondElement.value)
+        var result=parseInt(firstElement.value) + parseInt(secondElement.value)
+        var output=document.getElementById("result")
+        console.log(output)
+        output.innerHTML=result
+console.log(result)
+    }
+    function register()
+    {
+        var username=document.getElementById("username")
+        
+    }
+    
+
+    
+</script>
+<form>
+    <div class="conatainer">
+        <label>Enter number1</label>
+        <input type="text" name="num1" id="number1">
+        </div>
+        <div class="container">
+            <label>number2</label>
+            <input type="text" name="num" id="number2">
+            </div>
+            <button type="button" onclick="addition()" >Add</button>
+            <div id="result"></div>
+            <label>enter username</label>
+            <input type="text" name="username"id="username">
+            <div id="usernamemessage"></div>
+            </div>
+            <div>
+                <label>enter </label>
+            </div>
+            </form>
+
+</body>
+
+</html>
+<!--Data types in js
+1.String
+2.number
+3.boolean
+4.undefined
+5.null
+6.HTML DOM(document object module)
+-->
